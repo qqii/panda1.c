@@ -1,0 +1,8 @@
+line(d,30,30,170,30)
+pause(d,0)
+line(d,170,30,170,170)
+pause(d,0)
+line(d,170,170,30,170)
+pause(d,0)
+line(d,30,170,30,30)
+pause(d,0)

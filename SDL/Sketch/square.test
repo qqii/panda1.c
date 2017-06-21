@@ -1,0 +1,8 @@
+line(d,30,30,60,30)
+pause(d,0)
+line(d,60,30,60,60)
+pause(d,0)
+line(d,60,60,30,60)
+pause(d,0)
+line(d,30,60,30,30)
+pause(d,0)

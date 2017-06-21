@@ -1,0 +1,7 @@
+pause(d,0)
+pause(d,31)
+pause(d,0)
+pause(d,63)
+pause(d,64)
+pause(d,127)
+pause(d,128)
