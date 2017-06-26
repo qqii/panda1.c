@@ -2,11 +2,16 @@
 
 Parse a `.sketch` file and render instructions in an SDL window.
 
+## Usage
+
+1. `make`
+2. `./sketch.o <filename>`
+
 ## Sketch format
 
 The sketch format is a binary file that uses an instruction set that controls something similar to a turtle.
 
-Use `xxd -g 1 [filename]` to inspect sketch files in their binary format. A seperate tool has been created in the Decode folder to print out the instructions.
+Use `xxd -g 1 [filename]` to inspect sketch files in their binary format. A separate tool has been created in the Decode folder to print out the instructions.
 
 See the [Sketch.xhtml](Sketch.xhtml) file or the code for more details.
 

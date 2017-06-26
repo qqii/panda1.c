@@ -6,7 +6,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-char *read(FILE *in);
 char *readline(FILE *in);
 char *readfile(char *filename);
 

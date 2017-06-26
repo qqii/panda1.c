@@ -40,7 +40,7 @@ double evaluate(stack *ns, char *exp) {
 // Take a postfix expression from the command line and evaluate it.
 int main(int n, char *args[n]) {
     if (n != 2) {
-        fprintf(stderr, "Use: ./calc \"...\"\n");
+        fprintf(stderr, "Use: ./calc.o \"...\"\n");
         exit(1);
     }
     stack *ns = new_stack();

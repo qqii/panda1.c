@@ -1,12 +1,12 @@
 GCC = gcc -std=c99 -O3 -Wall -Werror -pedantic
 
+test: main.o
+	./main.o test
+
 build: main.o
 
 run: main.o
 	./main.o
-
-test: main.o
-	./main.o test
 
 main.o: main.c io.o memsim.o ring.o
 	$(GCC) main.c io.o memsim.o ring.o -o main.o

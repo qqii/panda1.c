@@ -15,4 +15,4 @@ Illegal         (lengths are invalid)
 ## Usage
 
 1. `make` (you should see 50 tests pass)
-2. `./triangle.o 3 4 5`
+2. `./triangle.o <integer> <integer> <integer>`

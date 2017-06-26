@@ -19,7 +19,9 @@ char *read(FILE *in) {
   rewind(in);
 
   buffer = (char *) malloc((length + 1) * sizeof(char));
-  fread(buffer, 1, length, in);
+  if (fread(buffer, 1, length, in) == 0) {
+    return NULL;
+  }
   fclose(in);
 
   buffer[length] = '\0';
@@ -36,7 +38,11 @@ char *readline(FILE *in) {
   char *line = (char *) malloc(capacity * sizeof(char));
 
   while (true) {
-    fgets(line + length, capacity - length, in);
+    if (fgets(line + length, capacity - length, in) == NULL) {
+      if (line + length == NULL) {
+        return NULL;
+      }
+    }
 
     if (feof(in)) {
       break;
