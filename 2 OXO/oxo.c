@@ -177,7 +177,11 @@ void play() {
         b.row = -1;
         while(b.row == -1){
             printf("%c> ", b.player);
-            scanf("%2c", input);
+            if(scanf("%2c", input) != 1) {
+              printf("Failed to read character.\n");
+              printf("This shouldn't happen, exiting...\n");
+              return;
+            }
             // dirty hack to clear input buffer
             while(getchar() != '\n');
             b = position(b, input);
