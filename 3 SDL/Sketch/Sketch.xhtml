@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+
+   <head>
+    <title>Bristol University | Department of Computer Science</title>
+    <base target="_top" />
+    
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="University of Bristol" name="DCTERMS.creator" />
+    <meta content="en-GB" name="DCTERMS.language" />
+    <meta content="2013-09-09" name="DCTERMS.modified" />
+    <meta content="2013-07-15" name="DCTERMS.created" />
+    <meta content="text/html" name="DCTERMS.format" />
+    <meta content="University of Bristol" name="DCTERMS.publisher" />
+    <meta content="http://www.bristol.ac.uk/university/web/terms-conditions.html" name="DCTERMS.rights" />
+    
+    <link rel="icon" href="http://www.bristol.ac.uk/favicon.gif" type="image/gif" />
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="./Sketch_files/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Sketch_files/uobcms_corporate.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1150px)" href="./Sketch_files/desktop.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="./Sketch_files/uobcms_print.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="./Sketch_files/boxes.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="./Sketch_files/sliders.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Sketch_files/efl-menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Sketch_files/homepage-base.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Sketch_files/computer_science.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Sketch_files/department.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Sketch_files/news.css" />
+    
+    <script src="./Sketch_files/jquery-2.1.3.min.js.download" />
+	<script src="./Sketch_files/jwplayer.js.download" />
+    
+    <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>--> 
+    <script type="text/javascript" src="./Sketch_files/jquery.cycle2.min.js.download" />
+    <script type="text/javascript" src="./Sketch_files/sm-slider.min.js.download" />
+    <script type="text/javascript" src="./Sketch_files/utilities.js.download" />
+    <script type="text/javascript" src="./Sketch_files/respond.min.js.download" />
+    <script type="text/javascript" src="./Sketch_files/cs_script.js.download" />
+    <script type="text/javascript" src="./Sketch_files/csyear.js.download" />
+    <script type="text/javascript" src="./Sketch_files/cs_bodyscript.js.download" />
+    
+    <meta name="viewport" content="width=1200" /> <!-- Will need to tweak this accordingly for mobile devices -->
+    <link rel="stylesheet" type="text/css" href="./Sketch_files/style.css" />
+
+<meta charset="UTF-8" />
+<meta name="author" content="ian" />
+
+<link href="./Sketch_files/style(1).css" rel="stylesheet" type="text/css" />
+<!-- Get rid of prblems with Uni MyBristol plugin -->
+<meta id="bristol" name="keywords" content="dummy" />
+<meta id="mybristol" name="keywords" content="dummy" />
+<meta id="contacts" name="keywords" content="dummy" />
+<meta id="gmailstaff" name="keywords" content="dummy" />
+<meta id="gmailstudents" name="keywords" content="dummy" />
+<title>Coursework: Week 9, Sketch</title>
+<style>pre, .indent { margin-left: 40px; }</style>
+</head>
+<body id="age" class="jsActive">
+    <!--NAVIGATION-->
+<div class="uob-mainnav-container clearfix" id="top"> <a class="skip-to-content" href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/#uobcms-content">Skip to main content</a> 
+  <div id="csnav">
+    
+  <!-- start content : corporate header -->
+  <ul class="width-master uob-mainnav" role="navigation" id="csmenu">
+    <li class="u-m-dropdown-item u-m-home"> <a class="u-m-link u-m-dropdown-link" tabindex="0" id="uob-mainnav-year"><span id="year1">2016-7</span></a>
+      <div class="dropdown dropdown_year">
+
+        <div class="layout-container">
+          <div class="row">
+            <div class="grid_4 column column-ug">
+              <ul class="list-no-style">
+                <li><a tabindex="-1" class="icon-backward" href="https://www.cs.bris.ac.uk/lib/lastyear.jsp"> Last year</a></li>
+                <li><a tabindex="-1" class="icon-forward" href="https://www.cs.bris.ac.uk/lib/nextyear.jsp"> Next year</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+     <li class="u-m-university"> <a class="u-m-link" href="http://www.cs.bris.ac.uk/ugadmissions/" tabindex="0"> UG Admissions</a> </li>
+    <!--
+    <li class="u-m-dropdown-item"> <a class="u-m-link u-m-dropdown-link"  tabindex="0" id="uob-mainnav-study">Courses and Programmes</a>
+      <div class="dropdown dropdown-study">
+        <div class="layout-container">
+          <div class="row">
+            <div class="grid_4 column column-ug">
+              <h2><a href="#" tabindex="-1">Undergraduate study</a></h2>
+              <ul class="list-no-style">
+                <li><a tabindex="-1" href="#">&nbsp;</a></li>
+                <li><a tabindex="-1" href="#">Computer Science BSc</a></li>
+                <li><a tabindex="-1" href="#">Computer Science MEng</a></li>
+                <li><a tabindex="-1" href="#">Mathematics and Computer Science</a></li>
+                <li><a tabindex="-1" href="#">Computer Science with Study Abroad</a></li>
+                <li><a tabindex="-1" href="#">Computer Science with Study in Continental Europe</a></li>
+                <li><a tabindex="-1" href="#">&nbsp;</a></li>
+              </ul>
+              <h2><a tabindex="-1" href="#">MSc taught programmes</a></h2>
+              <ul class="list-no-style">
+                <li><a tabindex="-1" href="#">&nbsp;</a></li>
+                <li><a tabindex="-1" href="#">Advanced Computing</a></li>
+                <li><a tabindex="-1" href="#">Advanced Computing (Internet Technologies with Security)</a></li>
+                <li><a tabindex="-1" href="#">Advanced Computing (Machine Learning, Data Mining and High-Performance Computing)</a></li>
+                <li><a tabindex="-1" href="#">Advanced Microelectronic Systems Engineering</a></li>
+                <li><a tabindex="-1" href="#">Computer Science (Conversion)</a></li>
+                <li><a tabindex="-1" href="#">Advanced Computing (Creative Technology)</a></li>
+                <li><a tabindex="-1" href="#">&nbsp;</a></li>
+              </ul>
+            </div>
+            <div class="grid_4 column column-study-related"> </div>
+          </div>
+        </div>
+      </div> 
+    </li>
+    -->
+    <li class="u-m-university"> <a class="u-m-link" href="http://www.bris.ac.uk/engineering/departments/computerscience/courses/postgraduate/" tabindex="0"> PG Admissions</a> </li>
+    <li class="u-m-university"> <a class="u-m-link" href="http://www.bris.ac.uk/engineering/departments/computerscience/research/" tabindex="0"> Research</a> </li>
+    <li class="u-m-faculties"> <a class="u-m-link" href="https://www.cs.bris.ac.uk/People/" tabindex="0"> People</a> </li>
+    <li class="u-m-business"> <a class="u-m-link" href="https://www.cs.bris.ac.uk/Teaching/" tabindex="0"> Teaching</a> </li>
+    <li class="u-m-business"> <a class="u-m-link" href="https://www.cs.bris.ac.uk/Partners/" tabindex="0"> Industrial partners</a> </li>
+    <li class="u-m-news"> <a class="u-m-link" href="https://www.cs.bris.ac.uk/news/" tabindex="0"> News</a> </li>
+    <li class="u-m-contact"> <a class="u-m-link" href="https://www.cs.bris.ac.uk/theindex.html" tabindex="0"> Index</a> </li>
+    <!--
+    <li class="u-m-contact"><a class="u-m-link" href="#top" onclick="toggle_visibility();">University Menu</a>
+    </li>
+    -->
+  </ul>
+  <!-- end content : corporate header -->   
+  </div>   
+  <div id="uobnav" style="display: none;">
+    <ul class="width-master uob-mainnav" role="navigation">
+    <li class="u-m-home">
+        <a class="u-m-link" href="http://www.bristol.ac.uk/">Home</a>
+    </li>
+    <li class="u-m-dropdown-item">
+        <a class="u-m-link u-m-dropdown-link" tabindex="0" id="uob-mainnav-study">Study at Bristol</a>
+        <div class="dropdown dropdown-study">
+            <div class="layout-container">
+                <div class="row">
+                    <div class="grid_4 column column-ug">
+                        <h2><a href="http://www.bristol.ac.uk/prospectus/undergraduate/2014" tabindex="-1">Undergraduate study</a></h2>
+						<ul class="list-no-style">
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/undergraduate/2014/prog_index" class="btn btn-d-pink btn-full-width icon-search">Find a course</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/undergraduate/2014/watch/">Why choose Bristol?</a></li>
+							<li><a tabindex="-1" href="http://www.bris.ac.uk/prospectus/undergraduate/2014/accommodation.html">Accommodation</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/undergraduate/2014/fees-funding/">Fees and funding</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/undergraduate/2014/student-life/">Student life</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/opendays/">Open days</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_4 column column-pg">
+                        <h2><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/postgraduate/2013">Postgraduate study</a></h2>
+						<ul class="list-no-style">
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/postgraduate/2014/search.html" class="btn btn-d-aqua btn-full-width icon-search">Find a course or programme</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/postgraduate/2014/apply/">How to apply</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/postgraduate/2014/accommodation.html">Accommodation</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/postgraduate/2014/fees-funding.html">Fees and funding</a></li>
+							<li><a tabindex="-1" href="http://www.bristol.ac.uk/prospectus/postgraduate/2014/further-info.html#video-watch">Why choose Bristol?</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_4 column column-study-related">
+                        <div class="module module-overlay module-overlay-d-lime">
+                            <h3 class="module-heading">
+                                <a tabindex="-1" href="http://www.bristol.ac.uk/international/"><span class="module-heading-bg">International students</span>
+                                <span class="module-image"><img src="./Sketch_files/module-international.jpg" alt="International students" width="300" height="150" /></span>
+                            </a></h3>
+                        </div>
+                        <div class="module module-overlay  module-overlay-d-lime">
+                            <h3 class="module-heading">
+                                <a tabindex="-1" href="http://www.bristol.ac.uk/applicants/"><span class="module-heading-bg">Current undergraduate applicants</span>
+                                <span class="module-image"><img src="./Sketch_files/module-applicants.jpg" alt="Current applicants" width="300" height="150" /></span>
+                            </a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of study dropdown-->
+    </li>
+    <li class="u-m-university">
+        <a class="u-m-link" href="http://www.bristol.ac.uk/university/" tabindex="0">Explore the University</a>
+    </li>
+    <li class="u-m-faculties">
+        <a class="u-m-link" href="http://www.bristol.ac.uk/faculties/" tabindex="0">Schools &amp; faculties</a>
+    </li>
+    <li class="u-m-research">
+        <a class="u-m-link" href="http://www.bristol.ac.uk/research/" tabindex="0">Research</a>
+    </li>
+    <li class="u-m-business">
+        <a class="u-m-link" href="http://www.bristol.ac.uk/business/" tabindex="0">Business</a>
+    </li>
+    <li class="u-m-news">
+        <a class="u-m-link" href="http://www.bristol.ac.uk/news/" tabindex="0">News</a>
+    </li>
+    <li class="u-m-contact">
+        <a class="u-m-link" href="http://www.bristol.ac.uk/contacting-people/" tabindex="0">People</a>
+    </li>
+    <li class="u-m-contact"><a class="u-m-link" href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/#top" onclick="toggle_visibility();">CS Menu</a>
+    </li>
+</ul>  
+  </div>    
+</div>       
+
+<!--BANNER-->
+<div class="uob-header-container"> 
+  <div class="uob-header width-master" role="banner"> 
+
+    <div id="uoblogo"><a accesskey="1" title="University of Bristol homepage" href="http://www.bristol.ac.uk/"><span>University of Bristol</span></a></div>
+    <div class="maintitle" id="maintitle1"><span id="title1"><a href="https://www.cs.bris.ac.uk/">Department of Computer Science</a></span></div>
+
+    <form class="uob-search" role="search" action="http://www.bristol.ac.uk/cgi-bin/search" onSubmit="return (this.words.value !== &apos;&apos;)">
+      <input type="hidden" value="cs.bris.ac.uk" name="sitesearch" />
+      <input type="hidden" name="uob_ou" value="Department of Computer Science" />
+      <input type="text" name="words" id="search" class="uob-search-field" value="" size="18" title="enter search keywords" onFocus="this.style.backgroundImage=&apos;none&apos;" onBlur="if (this.value === &apos;&apos;) {this.style.backgroundImage=&apos;url(/images/google_custom_search_watermark.gif)&apos;}" style="background-image: url(&quot;/images/google_custom_search_watermark.gif&quot;);" />
+      <input type="submit" id="submitwords" name="submitwords" value="search" class="uob-search-button" />
+    </form>
+
+  </div>
+<div class="screen-overlay hidden" style="height: 6808.69px;" /></div>  
+
+
+<div id="deptnav" class="bar2">
+      <ul class="width-master">
+         <li class="public">
+            <a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/" class="navlink">COMS10002</a>
+         </li>
+         <li class="public">
+            <a href="https://wwwa.fen.bris.ac.uk/COMS10002/" class="navlink">SAFE</a>
+         </li>
+         <li class="public">
+            <a href="https://www.cs.bris.ac.uk/forum/index.jsp?title=COMS10002" class="navlink">Forum</a>
+         </li>
+         <li class="public">
+            <a href="https://www.cs.bris.ac.uk/handbook/general/unit.jsp?unit=COMS10002" class="navlink">Handbook</a>
+         </li>
+         <li class="public">
+            <a href="https://www.cs.bris.ac.uk/Teaching/secure/unit.jsp?unit=COMS10002" class="navlink">Manage</a>
+         </li>
+      </ul>
+</div>
+
+
+
+<div id="uobcms-wrapper" class="width-master"> 
+
+
+
+<h1>Coursework: Week 9, Sketch</h1>
+
+<p>The coursework this week counts for 15% of your credit for the unit.  The
+aims are to practice essential bit manipulation skills, and to develop your own
+small functions.  Also, you will get to work on a multi-module program (though
+you only have to develop one module) and you get to see a graphics library
+being used (though you don't have to write any graphics code explicitly
+yourself) and you get to use a Makefile (in a very simple way).</p>
+
+<p>In this assignment, you won't be given skeletons for the functions.  But you
+are very strongly encouraged to design and write very small functions.  If you
+don't, and you just put everything into one big function, it will be almost
+impossible to reach the end of the assignment (except by extreme luck or
+heroism).  On the other hand, if you keep your functions very small, you may
+find the development surprisingly smooth and rewarding.</p>
+
+<p>The challenge is to develop a program <kbd>sketch.c</kbd> which reads in a
+file in a custom binary format (a <code>.sketch</code> file) which has been
+designed just for this assignment.  A sketch file contains graphics
+instructions which represent a recording of a sketch, including timings.  The
+program translates the instructions into calls to a graphics module, which is
+provided.  As a starting point, you are given these files:</p>
+
+<ul>
+<li><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/sketch.c">sketch.c</a></li>
+<li><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/display.h">display.h</a></li>
+<li><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/display.c">display.c</a>   or  
+    <a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/display2.c">display2.c</a></li>
+<li><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/Makefile">Makefile</a></li>
+</ul>
+
+<p>You will need to download these files into a folder.  The file
+<code>display2.c</code> can be used to replace <code>display.c</code> if you
+can't get SDL working, so you can still do the assignment. You should create a
+new folder for this assignment, because there are going to be quite a few files
+in it by the time you have finished.  For example:</p>
+
+<pre><b>mkdir sketching
+cd sketching
+</b></pre>
+
+<p>If you are using Windows, the file <code>Makefile</code> will probably be
+saved incorrectly as <code>Makefile.txt</code>.  If so, use a terminal window
+(not a graphical tool such as File Explorer which may not show extensions) to
+rename the file, using <code>mv Makefile.txt Makefile</code> or <code>rename
+Makefile.txt Makefile</code>.</p>
+
+<p><strong>TODO 1:</strong> Create a new folder.  Download the above files into
+it.  Check that the name of the makefile is correct, with no extension.  If you
+are plannng to work without SDL, rename <code>display2.c</code> as
+<code>display.c</code>.</p>
+
+<p>The file called <code>Makefile</code> contains the <code>gcc</code> command
+for compiling the sketch program on a lab workstation or any other 'standard'
+setup.  When you type the command <code>make</code>, it will look in the
+makefile and issue any commands that it finds there.  A makefile is being
+provided for this assignment (a) to save you from having to type a long
+<code>gcc</code> command, (b) to avoid any mis-typing of the command and (c) to
+help cope with different ways of accessing the graphics library on different
+computers.  To understand makefiles better, see <a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/asides/make.html">the aside on make</a>.  Since you are going to be
+working with many files, and there are a lot of opportunities for damaging them,
+you might also like to start using <code>git</code> (with or without a backup
+repository in the cloud).  See the <a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/asides/versions.html">versions</a> aside for details.</p>
+
+<p>If you are using your own computer, check that the Makefile works for you,
+and edit it if necessary.  A hash character <code>#</code> at the start of a
+line indicates that the line is a comment.  A name followed by a colon is
+something to make.  A line starting with a hard tab character is a command to
+execute to make it.  By default, <code>make</code> makes the first thing in the
+file.</p>
+
+<p><strong>TODO 2:</strong> Type the <code>make</code> command and check that
+the <code>Makefile</code> works for you.  Edit it if necessary.</p>
+
+<p>At this point, you can try running the program, if you want.  With no sketch
+files present, you will get no graphics produced, and instead you will get
+results like this:</p>
+
+<pre><b>./sketch</b>
+<span style="color:0x888">Can't open line.sketch</span>
+
+<b>./sketch line.sketch</b>
+<span style="color:0x888">Can't open line.sketch</span>
+</pre>
+
+<p>The first command, as usual, carries out all the automated tests (the first
+of which involves the sketch file <code>line.sketch</code>).  The second
+command would be used to display a particular sketch file.</p>
+
+<h2>The structure of the program</h2>
+
+<p>The program has a modular design, with two modules, the main
+module <code>sketch.c</code> and a separate graphics module with two
+files <code>display.h</code> and <code>display.c</code>.</p>
+
+<p>The file <code>display.c</code> contains all the details of using the SDL
+graphics library to do graphics.  You won't have to change this file, and you
+don't even have to read it.  But if you do want to know more about SDL, see
+the <a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/asides/sdl.html">aside on SDL</a> for more information.</p>
+
+<p>The file <code>display.c</code> provides just a few fairly simple functions
+which the main module can call.</p>
+
+<p>The purpose of the <code>display.h</code> file is partly for you to read so
+that you know what the functions do and how to call them.  It is also for the
+compiler to use when compiling <code>sketch.c</code>, so that it knows how to
+compile calls to those functions.  At the top of <code>sketch.c</code> is the
+line:</p>
+
+<pre>#include "display.h"
+</pre>
+
+<p>This tells the compiler to include the text from the <code>display.h</code>
+file, so that it knows how to call the display functions.  This is rather like
+using <code>#include &lt;stdio.h&gt;</code> when you want to use functions from
+the standard input-output module <code>stdio</code>.  There is a
+difference, because <code>"..."</code> means to look in the current folder,
+whereas <code>&lt;...&gt;</code> means to look in a standard place such
+as <code>/usr/include</code>.</p>
+
+<p>In test mode, the <code>display</code> module is responsible for testing.
+Instead of creating a graphics window and drawing into it, it simply checks
+that your program makes the right function calls.</p>
+
+<h2>The display module</h2>
+
+<p>Reading the header file <code>display.h</code> is important, because it is
+the interface between the two parts of the program.  The main module
+makes calls to those functions, and the display module implements them.</p>
+
+<p><strong>TODO 3:</strong> Read the header file <code>display.h</code>.</p>
+
+<p>Now, if you look in the skeleton <code>sketch.c</code> file, you can find the
+calls that it makes to the display functions <code>newDisplay</code> to get a
+display structure, then <code>end</code> to pause for a few seconds before
+shutting down the graphics window.</p>
+
+<p><strong>TODO 4:</strong> Find the calls to display functions in the
+file <code>sketch.c</code>.</p>
+
+<p>The display module works in two modes.  In normal mode, it displays graphics
+as requested.  In test mode, instead of creating a graphics window, it tests
+that the calls to the display functions that the main module makes are correct.
+The calls are defined at the bottom of <code>sketch.c</code>. For example, when
+your program processes the file <code>line.sketch</code>, it should make one
+call <code>line(d,30,30,60,30)</code> to the display module (in between
+<code>newDisplay</code> and <code>end</code>, which aren't listed).</p>
+
+<p><strong>TODO 5:</strong> Look at the tests in <code>sketch.c</code>, and
+understand how they list the graphics calls your program should make for each
+sketch file.</p>
+
+<h2>The main module</h2>
+
+<p>The skeleton program <code>sketch.c</code> which has been provided does
+several things.  The <code>main</code> function at the bottom allows the
+program to be run in two ways.  If you give it the name of a sketch file:</p>
+
+<pre><b>./sketch line.sketch</b>
+</pre>
+
+<p>then <code>main</code> calls <code>run</code> with the name of the file as an
+argument, and with a second argument <code>NULL</code> which says that this is
+not a test so that graphics should be produced.  If you run the program without
+a file name:</p>
+
+<pre><b>./sketch</b>
+</pre>
+
+<p>then <code>main</code> calls <code>run</code> for all of the sketch files
+which have been provided, in each case with tests provided in the second
+argument.</p>
+
+<p>The purpose of the <code>run</code> function is to read bytes from a sketch
+file and use them to work out what display functions to call.  At the moment, it
+sets things up, and then immediately shuts down again. The <code>run</code>
+function passes the tests (or <code>NULL</code>) on to the
+<code>newDisplay</code> function, so that the display module knows what to do.
+All the testing has already been implemented in the <code>display.c</code> file,
+so there is nothing else that you are going to need to do with the tests.</p>
+
+<p><strong>TODO 6:</strong> Read the file <code>sketch.c</code> and understand
+its structure.</p>
+
+<h2>Stage 1 of development</h2>
+
+<p>This stage supports simple monochrome sketches using one-byte operations.
+Your aim in stage 1 is to get these example sketch files to work:</p>
+
+<table class="indent">
+<tr><th>Sketch</th><th>Picture</th><th>Description</th></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/line.sketch">line.sketch</a></td>
+<td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/line.png">line.png</a></td>
+<td>horizontal line</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/square.sketch">square.sketch</a></td>
+<td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/square.png">square.png</a></td>
+<td>square</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/box.sketch">box.sketch</a></td>
+<td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/box.png">box.png</a></td>
+<td>animated square</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/oxo.sketch">oxo.sketch</a></td>
+<td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/oxo.png">oxo.png</a></td>
+<td>oxo board with long pauses</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/diag.sketch">diag.sketch</a></td>
+<td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/diag.png">diag.png</a></td>
+<td>diagonal line</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/cross.sketch">cross.sketch</a></td>
+<td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/cross.png">cross.png</a></td>
+<td>a cross</td></tr>
+</table>
+
+<p>To start development of the sketch program, download the first sketch
+file:</p>
+
+<p><strong>TODO 7:</strong> Download <code>line.sketch</code> into your
+folder</p>
+
+<p>The tests specify that when the <code>sketch</code> program is displaying the
+<code>line.sketch</code> file, it should call the <code>line</code> function to
+draw a straight line.</p>
+
+<p>Now you can try running the sketch program again:</p>
+
+<pre><b>./sketch line.sketch</b>
+<span style="color:0x888">(A plain white window appears for a few seconds)</span>
+
+<b>./sketch</b>
+<span style="color:0x888">Failure in line.sketch
+Expecting further call line(d,30,30,60,30)</span>
+</pre>
+
+<p><strong>TODO 8:</strong> Run the sketch program as above</p>
+
+<p>You can see that the program is making no calls to display functions
+(between <code>newDisplay</code> and <code>end</code>), but the test is
+expecting it to make one.</p>
+
+<p>The file <code>line.sketch</code> is a binary file, which means you can't
+easily view it in your editor.  Instead, you can have a look at it using
+the <code>xxd</code> command or <code>od</code> command described in
+the <a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/asides/unix.html">aside on Unix commands</a></p>
+
+<pre><b>xxd -g 1 line.sketch</b>
+0000000  1e 5e c3 1e 40
+
+<b>od -t x1 line.sketch</b>
+0000000  1e 5e c3 1e 40
+0000005
+</pre>
+
+<p>A prefix like <code>0000000</code> says what position in the binary file the
+line of output refers to, which is useful for larger files.  The rest of the
+line tells you that the file contains a grand total of five bytes, and it shows
+you what they are, starting with <code>0x1e</code> and ending with
+<code>0x40</code>.  Later, it may be useful to print out bytes in hex yourself,
+using <code>printf("%02x\n",b)</code> for example.</p>
+
+<p><strong>TODO 9:</strong> View the <code>line.sketch</code> file using a
+binary display command</p>
+
+<p>For the stage 1 example sketches, the contents of each sketch file are as
+follows.  Each byte is one instruction, rather like a processor instruction. The
+first (most significant) two bits form the <a href="https://en.wikipedia.org/wiki/Opcode">opcode</a>, short for operation
+code, which  is a small integer, in this case 0 to 3, which specifies what the
+instruction does.  The other six bits form the <a href="https://en.wikipedia.org/wiki/Operand">operand</a>, which is like the
+argument to an operator or function, and provides the operation with a number to
+work with. The opcodes at this stage are:</p>
+
+<ul>
+
+<li>Opcode 0 represents a <code>DX</code> operation, which changes the current x
+position by a given signed number of pixels, in the range -32..31.  Nothing is
+displayed.</li>
+
+<li>Opcode 1 represents a <code>DY</code> operation which changes the y position
+by a signed number of pixels (also -32..31).  If the pen is down (see opcode 3),
+a line is drawn from the previous (x,y) position to the current position.
+Whether a line is drawn or not, the current position is remembered as the
+previous position for next time.</li>
+
+<li>Opcode 2 represents a <code>DT</code> operation which represents a pause of
+a given unsigned number of milliseconds, in the range 0..63.</li>
+
+<li>Opcode 3 represents a <code>PEN</code> operation which toggles the drawing
+state between "pen up" (drawing off, movement only) and "pen down" (drawing on).
+The operand is ignored (though it is always 3 in the examples for reasons which
+will become clear in the next stage).</li>
+
+</ul>
+
+<p>The idea is that, in a recording of a freehand sketch that an artist does,
+with timings included to give an animated playback, there will be a lot of
+<code>DX</code>, <code>DY</code>, <code>DT</code> operations with small
+operands, and so it makes sense to optimize these so that they take up one byte
+each.  Less common operations are handled differently later.</p>
+
+<p>In the sketch program, you may want to define integer constants
+<code>DX</code>, <code>DY</code>, <code>DT</code>, <code>PEN</code> to stand for
+<code>0</code>, <code>1</code>, <code>2</code>, <code>3</code> to make the
+program a bit more readable.</p>
+
+<p>Standard graphics coordinates are used, with x to the right and y down, and
+with (0,0) at the top left corner of the graphics window.  You have to keep
+track in the sketch program of the previous coordinate position (x0,y0) and the
+current coordinate position (x,y), and whether the "pen" is currently up or
+down.  When the program is in the "pen up" state, the <code>DX</code> and
+<code>DY</code> opcodes represent "move by" operations, changing the current
+position without drawing anything.  When the program is in the "pen down" state,
+a <code>DX</code> and <code>DY</code> pair of opcodes becomes a "draw by"
+operation which draws a line segment from the old position to the new position.
+Initially, the position is (0,0) and the program is in the pen up state.
+Examples of instruction bytes are:</p>
+
+<ul>
+<li>byte <code>0x03</code> (which is <code>00000011<sub>2</sub></code>)
+means <code>DX 3</code>, a movement of 3 pixels to the right</li>
+<li>byte <code>0x7D</code> (which is <code>01111101<sub>2</sub></code>)
+means <code>DY -3</code>, a movement of 3 pixels up</li>
+<li>byte <code>0xA0</code> (which is <code>10100000<sub>2</sub></code>)
+means <code>DT 32</code>, a delay of 32 milliseconds</li>
+<li>byte <code>0xC3</code> (which is <code>11000011<sub>2</sub></code>)
+means <code>PEN</code>, switch drawing on or off</li>
+</ul>
+
+<p>It is time to start some implementation work.</p>
+
+<p>In the rest of this assignment, you willonly need to edit the
+<code>run</code> function in the <code>sketch.c</code> file, add supporting
+functions for it to use, and optionally add automated testing for your own extra
+functions.  You should leave the other functions <code>testSketches</code> and
+<code>main</code> alone.  You can develop by downloading each sketch file in
+turn.  You don't need to change the tests at the end of the program.</p>
+
+<p>Also leave alone the two files <code>display.h</code>
+and <code>display.c</code>, except to look at them (or possibly if you need to
+add printf statements to <code>display.c</code> for debugging).</p>
+
+<p>What is needed now is for the <code>run</code> function to do something in
+between the <code>newDisplay</code> and <code>end</code> calls.  It is entirely
+up to you how you develop your program, but I would suggest that
+the <code>run</code> function already has quite enough responsibilities,
+starting everything up and shutting it down.  So my suggestion would be to add
+a call:</p>
+
+<pre>...
+display *d = newDisplay(filename, 200, 200, testing);
+interpret(in, d);
+end(d);
+...
+</pre>
+
+<p>and then to add a new function <code>interpret</code> above <code>run</code>
+like this:</p>
+
+<pre>void interpret(FILE *in, display *d) {
+}
+</pre>
+
+<p>The responsibility of the <code>interpret</code> function (or whatever you
+want to call it) is to read bytes from the already opened <code>in</code> file,
+unpack each byte into an opcode and operand, and use those to make suitable
+calls to display functions.  But that's too much to develop in one go.  So, to
+begin with, the aim should be just to read each byte in, and print it out
+again.</p>
+
+<p>Check the input/output lecture notes to see how to read bytes from a binary
+file, using the <code>fgetc</code> and <code>feof</code> functions.  To store a
+byte, probably the best choice is a variable which is of type <code>unsigned
+char</code>.  You might like to use a <code>typedef</code> so that you can use
+the word <code>byte</code> as a synonym for this, for readability.  To print out
+a byte, you can use <code>printf("%02x\n",...)</code>.</p>
+
+<p><strong>TODO 10:</strong> Develop the sketch program to the point where it
+reads in bytes and prints them out again, one per line, in hex.  Compare the
+results with <code>xxd</code> or <code>od</code> to check correctness.</p>
+
+<p>The next step is to unpack each byte into its opcode and operand, and print
+them out instead of the raw bytes.  I would suggest that it is definitely worth
+writing a separate function to extract an opcode from a byte, and one to extract
+an operand from a byte, even if they end up being one line each.  If you don't
+know how to do this, re-read the bits lecture notes. Running your program on
+the <code>line.sketch</code> file might produce:</p>
+
+<pre><b>./sketch line.sketch</b>
+0 30
+1 30
+3 3
+0 30
+1 0
+</pre>
+
+<p><strong>TODO 11:</strong> Develop the sketch program to the point where it
+reads in bytes and prints them out again, one per line, as an opcode and an
+operand.  Check it against the above printout.</p>
+
+<p>The last two ops are <code>DX 30</code> and <code>DY 0</code>.  The <code>DY
+0</code> op is needed because it causes the line to be drawn.  (A vertical line
+would not need a <code>DX 0</code> op.)</p>
+
+<p>The next step is to take each opcode and operand and use it to do something.
+Check that you understand that the above sequence means "start at (0,0) with the
+pen up, move to (30,0), move to (30,30) and remember it, pen down, move to
+(60,30), stay at (60,30) and and draw a line from (30,30) to (60,30) and
+remember (60,30)".</p>
+
+<p>I would suggest that it is definitely worth making four new functions, one
+for each possible opcode.  You may not think so, but if you follow my advice,
+you will thank me later.</p>
+
+<p>A problem that arises here is that you need to pass the various x, y and pen
+values to each function, which updates them suitably.  I suggest using the same
+strategy as in the oxo program.  Define a structure such as <code>struct
+state</code> which contains the variables as fields. You might find it
+convenient to store other variables such as the display pointer in your new
+structure, too.  Create and initialise a variable of that structure type, and a
+variable which points to it, in your <code>interpret</code> function.  Pass the
+pointer as an argument to each opcode handling function.</p>
+
+<p><strong>TODO 12:</strong> Develop the sketch program to the point where it
+calls a function for each opcode, and that function updates the state suitably,
+and makes calls to display functions in the right places.</p>
+
+<p>How do you know if you are doing it right?  By using test mode to see if the
+tests for the line sketch work.  This is what you should expect to see:</p>
+
+<pre><b>./sketch</b>
+Sketch line.sketch OK
+Can't open square.sketch
+</pre>
+
+<p>Also, you can run <code>./sketch line.sketch</code> and compare what you see
+with the image <code>line.png</code> which is provided.  The contents of the
+window should be identical.</p>
+
+<p>By now, you should have got the hang of what you are trying to achieve. The
+next step is to download <code>square.sketch</code>.  Passing the tests for this
+sketch will check that you are correctly handling negative operands to the
+<code>DX</code> and <code>DY</code> ops.</p>
+
+<p>After that, download the files for the box example.  This draws a square
+again, but in small steps with pauses, so that it produces a smooth animation
+of drawing a box, instead of being instant.  This is to check that the program
+is handling <code>DT</code> correctly.</p>
+
+<p>Then, do the same for the oxo sketch, which is to test that pen up and pen
+down are being handled properly.</p>
+
+<p>Then, do the same for the diag and cross sketches, which are to test that
+diagonal lines are drawn properly.</p>
+
+<p><strong>TODO 13:</strong> Check that your program successfully handles
+all six sketches for stage 1</p>
+
+<p>At this point, you can heave a sigh of relief, because this is about where
+the pass mark for the assignment comes.  You can relax and enjoy the rest of
+the assignment, out of interest instead of chasing marks.</p>
+
+<p><strong>TODO 14:</strong> Sigh with relief.</p>
+
+<h2>Stage 2 of development</h2>
+
+<p>Now we introduce a system of extended opcodes and operands. Opcodes 0, 1, 2
+are the same as before.  Opcode 3 represents the extension mechanism. When the
+first two bits (<code>0xC0</code>) of a byte have value 3, the next two bits
+(<code>0x30</code>) are length bits used to specify the number of extra operand
+bytes, and the final four bits (<code>0x0F</code>) form the opcode.</p>
+
+<p>When the length bits have values <code>0</code>, <code>1</code>,
+<code>2</code>, <code>3</code>, that indicates that there are a further
+<code>0</code>, <code>1</code>, <code>2</code>, or <code>4</code> bytes forming
+the operand.  If the length code is zero, there is an implicit operand of
+<code>0</code> (if the opcode needs an operand). An operand never has three
+bytes - if it needs three, it is given four.   If the length code is 1, 2 or 3,
+the next <code>1</code>, <code>2</code>, or <code>4</code> bytes from the sketch
+file are read in and are packed, with the most significant byte first, into an
+operand.</p>
+
+<p>If there is an operand in the following 1, 2 or 4 bytes, it always represents
+a signed number, and is stored with the most significant bytes first.  If the
+opcode expects an unsigned number, then a negative operand is never used.  For
+example, if a <code>DT</code> operation has a one byte operand
+(<code>0xE2</code>) then the operand must be in the range 0 to 127.  If you need
+an operand of 128, you have to use two bytes for it.</p>
+
+<p>This is compatible with stage 1.  The <code>PEN</code> operation is
+<code>0xC3</code> (which is <code>11000011<sub>2</sub></code>), i.e. "extended
+mode, no extra operand bytes, opcode 3".  That is why the <code>PEN</code>
+operation always appeared to have operand 3 earlier.  Extended mode opcodes 0,
+1, 2 (i.e. <code>11xx0000<sub>2</sub></code>, <code>11xx0001<sub>2</sub></code>,
+<code>11xx0010<sub>2</sub></code>) are synonyms for the original
+<code>DX</code>, <code>DY</code> and <code>DT</code> opcodes, except that in the
+extended format they may now have much larger operands.</p>
+
+<p>There is no real distinction between opcodes and extended opcodes. It is just
+that opcodes 0, 1, 2 have an alternative, more compact representation for small
+operands.  Some new opcodes are added:</p>
+
+<ul>
+
+<li>Opcode 4 (<code>0xC4</code>) represents a <code>CLEAR</code> operation which
+clears the graphics screen.  It needs no operand.  (This would be useful, for
+example, if there were an animated series of sketches in a single file.)</li>
+
+<li>Opcode 5 (<code>0xC5</code>) represents a <code>KEY</code> operation in
+which the program waits until the user responds by pressing a key. It needs no
+operand, and ignores which key is pressed.  (This would be useful, for example,
+where a sketch presents a question or problem, then waits for a key press, then
+presents the answer. The window's quit button can be used while waiting for a
+key press.)</li>
+
+<li>Opcode 6 represents a <code>COL</code> operation which changes the current
+drawing colour.  The operand, in four extra bytes, is in a packed RGBA format,
+with one unsigned byte each of red, green, blue, and opacity (alpha) components.
+Opacity 0 means fully transparent, 255 means fully opaque.  If the current
+colour is not black (<code>0x000000FF</code>) then <code>cline</code> should be
+called instead of <code>line</code>.</li>
+
+</ul>
+
+<p>Here are some further sketch files to test the extension mechanism.  Note
+that, for <code>KEY</code> to work, the user may need to click on the graphics
+window to make it active.</p>
+
+<table class="indent">
+<tr><th>Sketch</th><th>Description</th></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/clear.sketch">clear.sketch</a></td>
+<td>oxo board, pause, clear, cross</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/key.sketch">key.sketch</a></td>
+<td>oxo board, pause, wait for key press, clear, cross</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/pauses.sketch">pauses.sketch</a></td>
+<td>a sequence of pauses in  a variety of formats
+</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/field.sketch">field.sketch</a></td>
+<td>a large rectangle, with extended format <code>DX</code> and <code>DY</code>
+ops</td></tr>
+<tr><td><a href="https://www.cs.bris.ac.uk/Teaching/Resources/COMS10002/cw/w9/lawn.sketch">lawn.sketch</a></td>
+<td>a large green rectangle
+</td></tr>
+</table>
+
+<p><strong>TODO 15:</strong> Download the files for the two new examples, and
+develop the <code>sketch</code> program until all of the tests for the first
+eight sketches pass.</p>
+
+<h2>Submission and Marking</h2>
+
+<p>All you have to submit is your <code>sketch.c</code> file.  As usual,
+keeping the file name the same and submitting it directly and not inside a zip
+file will help with automarking.</p>
+
+<p>The stages above are auto-tested, and the results of the auto-tests provide
+your mark for the first 60% of the assignment.  Your mark will be 40% if you get
+to the end of stage 1, 60% if you get to the end of stage 2, and I will use my
+judgement if it is in between.</p>
+
+<p>If you are particularly proud of the <em>way</em> in which you develop the
+sketch program, submit a very brief summary in a <code>readme.txt</code> file,
+and I may give you a few extension marks for it.</p>
+
+<h2>Creativity extension</h2>
+
+<p>For the remaining 40% of the assessment, do something creative to extend the
+assignment, e.g. add other opcodes, or write a program to record sketches, or
+create some interesting sketches to share with everybody, or find a way of
+adapting some existing sketches to share, or look into smoothing (that's
+interpolation if there are too few points or simplification if there are too
+many), or investigate bitfields as a possibly more readable way of handling
+packing and unpacking, or write any other program you like, preferably using SDL
+graphics.</p>
+
+<p>A creative extension <em>must</em> be accompanied by a short
+<kbd>readme.txt</kbd> file to explain what you've done.  As usual, the mark for
+the creative part is a grade raise.  If you finish the sketch program but don't
+do an extension, your mark is 60, which is good (upper second class).  If you
+get 10 for the extension, your overall mark is 70, which is first class, and so
+on.</p>
+
+</div>
+
+<!--FOOTER-->
+<!--UOB EDITED FOOTER-->
+<div class="uob-mega-footer-container clearfix"> 
+  <!-- navigation object : shared footer --> 
+  <!-- start content : corporate footer -->
+  <div class="uob-mega-footer width-master">
+    <div class="uob-mega-footer-col uob-mega-footer-col-1">
+      <h4>Department of Computer Science </h4>
+      <p class="uob-mega-footer-address"> University of Bristol<br />
+        Department of Computer Science<br />
+        Merchant Venturers Building<br />
+        Woodland Road<br />
+        Bristol BS8 1UB UK<br />
+        +44 (0)117 331 5663 </p>
+      <h4>Information for</h4>
+      <ul class="list-users">
+        <li><a href="http://www.bris.ac.uk/engineering/departments/computerscience/courses/">Prospective students</a></li>
+        <li><a href="http://www.cs.bris.ac.uk/Partners/">Industrial partners</a></li>
+      </ul>
+     
+    </div>
+    <div class="uob-mega-footer-col mega-footer-col-2">
+      <h4><a href="http://www.bris.ac.uk/engineering/departments/computerscience/research/">Research Groups</a></h4>
+      <ul>
+        <li><a href="http://www.bris.ac.uk/engineering/research/research-groups/vi-lab.html">Visual Information Laboratory</a></li>
+        <li><a href="http://www.bris.ac.uk/engineering/research/research-groups/cryptography.html">Cryptography</a></li>
+        <li><a href="http://www.bris.ac.uk/engineering/research/research-groups/interactiongraphics.html">Interaction and Graphics</a></li>
+        <li><a href="http://www.bris.ac.uk/engineering/research/research-groups/microelectronics.html">Microelectronics</a></li>
+        <!--<li><a href="http://www.bristol.ac.uk/prospectusrequest/">Request a prospectus</a></li>-->
+        <li><a href="http://www.bris.ac.uk/engineering/research/research-groups/intelligentsys.html">Intelligent Systems</a></li>
+        <li><a href="http://www.cs.bris.ac.uk/Research/Algorithms/">Theory and Algorithms</a></li>
+      </ul>
+      <h4><a href="http://www.bristol.ac.uk/research/">Research</a> Centres</h4>
+      <ul>
+        <!--<li><a href="http://www.bristol.ac.uk/research/vision.html">Research vision</a></li>-->
+        <li><a href="https://www.acrc.bris.ac.uk/">Advanced Computing Research Centre</a></li>
+        <li><a href="http://www.brl.ac.uk/">Bristol Robotics Laboratory</a></li>
+        <li><a href="http://www.cs.bris.ac.uk/Research/ITLaw/">Centre for IT and Law</a></li>
+        <li><a href="http://www.cs.bris.ac.uk/Research/QuantumComputing/">Quantum Computation and Information</a></li>       
+      </ul>
+    </div>
+    <div class="uob-mega-footer-col uob-mega-footer-col-3">
+      <h4><a href="http://www.bristol.ac.uk/university/">Explore the University</a></h4>
+      <ul>
+        <li><a href="http://www.bristol.ac.uk/maps/">Maps and travel</a></li>
+        <li><a href="http://www.bristol.ac.uk/university/visit/">Tours and visits</a></li>
+        <li><a href="http://www.bristol.ac.uk/citybristol/">Photo gallery</a></li>
+        <!--<li><a href="http://www.bristol.ac.uk/university/history/">History of the University</a></li>-->
+        <li><a href="http://www.bristol.ac.uk/university/governance/">Governance</a></li>
+        <li><a href="http://www.bristol.ac.uk/citybristol/">Explore the city of Bristol</a></li>
+      </ul>
+      <!--<h4><a href="http://www.bristol.ac.uk/business/">Business and enterprise</a></h4>
+			<ul>
+				<li><a href="http://www.bristol.ac.uk/research/business.html">Research collaboration</a></li>
+				<li><a href="http://www.bristol.ac.uk/red/">Research and Enterprise Development</a></li>
+			</ul>-->
+      <h4> </h4>
+      <h4><a href="http://www.bristol.ac.uk/jobs/">University Jobs</a></h4>
+      <ul>
+        <li><a href="http://www.bristol.ac.uk/jobs/">Working at Bristol</a></li>
+        <li><a href="http://www.bristol.ac.uk/jobs/find/">Job listings</a></li>
+      </ul>
+    </div>
+    <div class="uob-mega-footer-col uob-mega-footer-col-4">
+      <h4><a href="http://www.bristol.ac.uk/index/">A–Z of the University</a></h4>
+      <ul class="uob-mega-footer-a-z clearfix">
+        <li><a href="http://www.bristol.ac.uk/index/0">#</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/a">A</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/b">B</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/c">C</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/d">D</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/e">E</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/f">F</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/g">G</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/h">H</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/i">I</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/j">J</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/k">K</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/l">L</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/m">M</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/n">N</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/o">O</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/p">P</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/q">Q</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/r">R</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/s">S</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/t">T</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/u">U</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/v">V</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/w">W</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/x">X</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/y">Y</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/z">Z</a></li>
+        <li><a href="http://www.bristol.ac.uk/index/full" class="see-all">See all</a></li>
+      </ul>
+      <ul role="contentinfo">
+        <li><a href="http://www.bristol.ac.uk/help/">Help</a></li>
+        <li><a href="http://www.bristol.ac.uk/web/policies/terms-conditions.html">Terms and conditions</a></li>
+        <li><a href="http://www.bristol.ac.uk/web/policies/privacy-policy.html">Privacy and cookie policy</a></li>
+        <li><a href="http://www.bristol.ac.uk/web/policies/terms-conditions.html#copyright">© 1995-2017 University of Bristol</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end content : corporate footer --> 
+</div>
+</body>
+
+
+<div /></html>

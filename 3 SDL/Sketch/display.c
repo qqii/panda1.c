@@ -26,10 +26,14 @@ static void fail(char *s1, char *s2) {
 // Check an actual call against the next expected call.
 static void check(display *d) {
     char expected[100];
-    fgets(expected, 100, d->input);
+    if (fgets(expected, 100, d->input) == NULL) {
+        if (expected == NULL) {
+            printf("fgets(expected, 100, d->input) == expected == NULL in check\n");
+        }
+    }
     expected[strcspn(expected, "\r\n")] = '\0';
     bool ended = feof(d->input);
-    if (! ended && strcmp(d->actual, expected) == 0) return;
+    if (!ended && strcmp(d->actual, expected) == 0) return;
     fprintf(stderr, "Failure in test file: %s\n", d->file);
     if (ended) fail("Unexpected extra call", d->actual);
     fprintf(stderr, "Bad call  %s\n", d->actual);
@@ -147,7 +151,11 @@ char key(display *d) {
 void end(display *d) {
     if (d->testing) {
         char expected[100];
-        fgets(expected, 100, d->input);
+        if (fgets(expected, 100, d->input) == NULL) {
+            if (expected == NULL) {
+                printf("fgets(expected, 100, d->input) == expected == NULL in end\n");
+            }
+        }
         if (! feof(d->input)) {
             fprintf(stderr, "Failure in test file: %s\n", d->file);
             fail("Expecting further call", expected);

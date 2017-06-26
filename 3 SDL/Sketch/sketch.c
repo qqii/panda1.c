@@ -132,7 +132,7 @@ int main(int n, char *args[n]) {
     if (n == 1) testSketches();
     else if (n == 2) run(args[1], false);
     else {
-        fprintf(stderr, "Usage: sketch [file.sketch]");
+        fprintf(stderr, "Usage: ./sketch.o [file.sketch]\n");
         exit(1);
     }
 }

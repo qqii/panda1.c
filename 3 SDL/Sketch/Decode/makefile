@@ -1,8 +1,14 @@
 GCC = gcc -std=c99 -O3 -Wall -Werror -pedantic
+FILES = decode.c interpret.c
+OUTFILE = decode.o
 
-all: decode
+run: build
+	./$(OUTFILE)
 
-DECODE_I = decode.c interpret.c
-DECODE_O = decode.o
+build: clean decode
+
 decode:
-	$(GCC) $(DECODE_I) -o $(DECODE_O)
+	$(GCC) $(FILES) -o $(OUTFILE)
+	
+clean:
+		rm -f $(OUTFILE)
