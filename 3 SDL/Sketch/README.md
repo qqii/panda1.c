@@ -13,7 +13,7 @@ The sketch format is a binary file that uses an instruction set that controls so
 
 Use `xxd -g 1 [filename]` to inspect sketch files in their binary format. A separate tool has been created in the Decode folder to print out the instructions.
 
-See the [Sketch.xhtml](Sketch.xhtml) file or the code for more details.
+Details are included in the Decode README.
 
 ## Comments
 
